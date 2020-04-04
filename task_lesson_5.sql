@@ -96,7 +96,7 @@ SELECT COUNT(DAYNAME(CONCAT(YEAR(NOW()),'-',MONTH(birthday_at),'-',DAY(birthday_
  Задача 3
 (по желанию) Подсчитайте произведение чисел в столбце таблицы
  */
-SELECT EXP(SUM(LN(value))) from vtable
+SELECT EXP(SUM(LN(item))) from users
 
 
 
